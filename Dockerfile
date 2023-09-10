@@ -1,6 +1,6 @@
 FROM python:3.8-slim-buster
 COPY requirements.txt requirements.txt
-RUN aria2c https://github.com/amivin/aria2-heroku
+RUN heroku buildpacks:add https://github.com/amivin/aria2-heroku.git
 RUN apt-get update
 RUN apt-get install -y libssl-dev aria2 ffmpeg curl unzip
 RUN curl https://www.bok.net/Bento4/binaries/Bento4-SDK-1-6-0-640.x86_64-unknown-linux.zip --output Bento4-SDK-1-6-0-640.x86_64-unknown-linux.zip
