@@ -58,8 +58,8 @@ bot = Client("bot",
              bot_token= "6219060886:AAESylJJPfl_YL0YLRuG6Z6-GXlNU0pxuYI",
              api_id= 28485705,
              api_hash= "26d76803d487d6d0cc818cf191fa7518")
-auth_users = [6211690957,5998192419]
-sudo_users = [6211690957,5998192419]
+auth_users = [5685862369,5998192419]
+sudo_users = [5685862369,5998192419]
 sudo_groups = []
 
 shell_usage = f"**USAGE:** Executes terminal commands directln\n<pre>/shell pip install requests</pre>"
