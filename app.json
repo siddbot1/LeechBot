@@ -1,7 +1,7 @@
 {
     "name":"pyro",
     "description":"Download videos from various websites using this telegram bot",
-    "repository":"https://github.com/Adrenalinators/TXTLeechBot",
+    "repository":"https://github.com/Pkhaxzor/LeechBot.git",
     "buildpacks":[
 	{
             "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
