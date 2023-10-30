@@ -1,7 +1,7 @@
 {
     "name":"pyro",
     "description":"Download videos from various websites using this telegram bot",
-    "repository":"https://github.com/Pkhaxzor/LeechBot.git",
+    "repository":"https://github.com/Pkhaxzor/siddbot1.git",
     "buildpacks":[
 	{
             "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
@@ -15,19 +15,19 @@
     "env": {
         "API_ID":{
             "description": "Get your telegram API ID from https://my.telegram.org",
-            "value":"28485705"
+            "value":"25218337"
         },
         "API_HASH":{
             "description":"Get your telegram API HASH from https://my.telegram.org",
-		    "value":"26d76803d487d6d0cc818cf191fa7518"
+		    "value":"0984be1572879b9dabb10882fb46a539"
         },
         "BOT_TOKEN":{
             "description":"Get from BotFather",
-            "value":"6219060886:AAESylJJPfl_YL0YLRuG6Z6-GXlNU0pxuYI"
+            "value":"6824181909:AAFPMlzQ8xn90huN56iPfP-GDC7l9NMjtFo"
         },
         "AUTH_USERS":{
             "description":"Admin/Owner/Friends ID Seperate by ','  Ex: 44578878,8878899",
-            "value":"6211690957"
+            "value":"5732659152"
         }
     }
 }
