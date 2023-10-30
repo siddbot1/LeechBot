@@ -56,11 +56,11 @@ logging = logging.getLogger()
 
 bot = Client("bot",
              bot_token= "6219060886:AAESylJJPfl_YL0YLRuG6Z6-GXlNU0pxuYI",
-             api_id= 28485705,
-             api_hash= "26d76803d487d6d0cc818cf191fa7518")
-auth_users = [5685862369,5998192419]
-sudo_users = [5685862369,5998192419]
-sudo_groups = []
+             api_id= 25218337,
+             api_hash= "0984be1572879b9dabb10882fb46a539")
+auth_users = [5732659152]
+sudo_users = [5732659152]
+sudo_groups = -1002061976269[]
 
 shell_usage = f"**USAGE:** Executes terminal commands directln\n<pre>/shell pip install requests</pre>"
 def one(user_id):
